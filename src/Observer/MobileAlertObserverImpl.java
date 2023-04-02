@@ -5,11 +5,11 @@ import Observable.StocksObservable;
 public class MobileAlertObserverImpl implements NotificationAlertObserver{
 
     String username;
-    StocksObservable stocksObservable;
+//    StocksObservable stocksObservable;
 
-    public MobileAlertObserverImpl(String username, StocksObservable stocksObservable){
+    public MobileAlertObserverImpl(String username){
         this.username = username;
-        this.stocksObservable = stocksObservable;
+//        this.stocksObservable = stocksObservable;
     }
 
     @Override

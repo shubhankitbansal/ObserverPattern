@@ -12,12 +12,12 @@ public class Main {
         StocksObservable androidStockObservable = new AndroidPhoneStockObservable();
         StocksObservable windowsStockObservable = new WindowsPhoneStockObservable();
 
-        NotificationAlertObserver observer1 = new MobileAlertObserverImpl("Shubhankit Bansal", iphoneStockObservable);
-        NotificationAlertObserver observer2 = new MobileAlertObserverImpl("Shivangi Bansal", androidStockObservable);
-        NotificationAlertObserver observer3 = new MobileAlertObserverImpl("Rishabh Bansal", windowsStockObservable);
-        NotificationAlertObserver observer4 = new EmailAlertObserverImpl("shubhankitbansal2016@gmail.com", iphoneStockObservable);
-        NotificationAlertObserver observer5 = new EmailAlertObserverImpl("ankitchapparia@gmail.com", iphoneStockObservable);
-        NotificationAlertObserver observer6 = new EmailAlertObserverImpl("govindSinghal@gmail.com", androidStockObservable);
+        NotificationAlertObserver observer1 = new MobileAlertObserverImpl("Shubhankit Bansal");
+        NotificationAlertObserver observer2 = new MobileAlertObserverImpl("Shivangi Bansal");
+        NotificationAlertObserver observer3 = new MobileAlertObserverImpl("Rishabh Bansal");
+        NotificationAlertObserver observer4 = new EmailAlertObserverImpl("shubhankitbansal2016@gmail.com");
+        NotificationAlertObserver observer5 = new EmailAlertObserverImpl("ankitchapparia@gmail.com");
+        NotificationAlertObserver observer6 = new EmailAlertObserverImpl("govindSinghal@gmail.com");
 
         iphoneStockObservable.add(observer1);
         androidStockObservable.add(observer2);
