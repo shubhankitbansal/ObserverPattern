@@ -31,7 +31,7 @@ public class Main {
         iphoneStockObservable.remove(observer1);
         iphoneStockObservable.remove(observer4);
         androidStockObservable.setStocks(5);
-//        androidStockObservable.remove(observer6);
+        androidStockObservable.remove(observer6);
         windowsStockObservable.setStocks(8);
         androidStockObservable.setStocks(0);
         iphoneStockObservable.setStocks(4);
